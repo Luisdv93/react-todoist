@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import { Header } from "./layout/Header";
+import { Content } from "./layout/Content";
 
-const App = () => {
+export const App = () => {
   return (
-    <div >
-     <h1>Todoist</h1>
+    <div>
+      <Header />
+      <Content />
     </div>
   );
-}
-
-export default App;
+};
